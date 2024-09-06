@@ -316,6 +316,7 @@ GameObject:
   - component: {fileID: 1925410825}
   - component: {fileID: 1925410824}
   - component: {fileID: 1925410823}
+  - component: {fileID: 1925410827}
   m_Layer: 0
   m_Name: cube
   m_TagString: Untagged
@@ -411,6 +412,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1925410827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925410822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb85bd0f27417fe40aae890ce76f2d2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hundokilo: 100000
+  fiddykilo: 50000
+  addIntTotal: 0
+  bigolnumber: 2000000000
+  evenbiggernumber: 5000000000
+  subLongTotal: 0
+  wowdecimal: 0.0754
+  itemprice: 175.99
+  multFloatTotal: 0
+  iddybittynum: 2.7182819
+  exvalue: 2.111115
+  divDoubleTotal: 0
+  totalCount: 0
+  arbok: 97
+  piplup: 112
+  lapras: 108
+  empoleon: 101
+  word: 
+  message1: wow script one is frustrating me
+  message2: it keeps breaking T-T
+  message3: and I'm just like I wanna spell apple man
+  message4: pov you're 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
