@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a6dbb1cd02a66b64a892ae19ff8eac32
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - egg: {fileID: 21300000, guid: 0fe6d107f38649e4b8e0493adf50c287, type: 3}
+  - birdSquish: {fileID: 21300000, guid: f3edf8050b0416e4592768179874919b, type: 3}
+  - birdStretch: {fileID: 21300000, guid: b5333c496332d6d40a0fa27b4d65d73d, type: 3}
+  - CrackeggSprite: {fileID: 21300000, guid: ddba3debda0123746932507eb04c9dbb, type: 3}
+  - BirdImageholder: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
