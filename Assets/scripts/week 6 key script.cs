@@ -1,9 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+public enum keyNDoorColor
+{
+    Green,
+    Blue,
+    Red,
 
+
+
+}
 public class week6keyscript : MonoBehaviour
 {
+    public week6playerscript PlayerScript;
+    public keyNDoorColor keycolor;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +26,44 @@ public class week6keyscript : MonoBehaviour
     void Update()
     {
         
+    }
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            week6playerscript PlayerScript = other.GetComponent<week6playerscript>();
+           
+            if(keycolor == keyNDoorColor.Red)
+            {
+                PlayerScript.RedInInventory = true;
+             
+                Destroy(this.gameObject);
+            }
+            else if(keycolor == keyNDoorColor.Green)
+            {
+           PlayerScript.GreenInInventory = true;
+               
+                Destroy(this.gameObject);
+
+            }
+            else if (keycolor == keyNDoorColor.Blue)
+            {
+                PlayerScript.BlueInInventory = true;
+              
+                Destroy(this.gameObject);
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+        }
     }
 }
